@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dialog_text"
+        android:textColor="#ff000000"
+        android:textSize="18sp"
+        android:layout_marginStart="15dip"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="15dip"
+        android:layout_marginEnd="15dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:gravity="center" >
+        <ImageView
+            android:layout_width="200dip"
+            android:layout_height="200dip"
+            android:id="@+id/dialog_img" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="3dip" >
+        <ImageButton
+            android:id="@+id/dialog_qq"
+            android:layout_width="46dip"
+            android:layout_height="46dip"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/qq"
+            android:scaleType="fitCenter"
+            android:text="QQ"
+            android:layout_alignParentRight="true"
+            style="?android:buttonBarButtonStyle" />
+        <ImageButton
+            android:id="@+id/dialog_wechat"
+            android:layout_width="46dip"
+            android:layout_height="46dip"
+            android:layout_marginRight="50dip"
+            android:src="@drawable/wechat"
+            android:scaleType="fitCenter"
+            android:text="微信"
+            android:layout_alignParentRight="true"
+            style="?android:buttonBarButtonStyle" />
+        <ImageButton
+            android:id="@+id/dialog_save"
+            android:layout_width="46dip"
+            android:layout_height="46dip"
+            android:layout_marginLeft="5dip"
+            android:src="@drawable/save"
+            android:scaleType="fitCenter"
+            android:text="保存"
+            style="?android:buttonBarButtonStyle" />
+        <ImageButton
+            android:id="@+id/dialog_tim"
+            android:layout_width="46dip"
+            android:layout_height="46dip"
+            android:layout_marginRight="96dip"
+            android:src="@drawable/tim"
+            android:scaleType="fitCenter"
+            android:text="TIM"
+            android:layout_alignParentRight="true"
+            style="?android:buttonBarButtonStyle" />
+        <ImageButton
+            android:id="@+id/dialog_share"
+            android:layout_width="46dip"
+            android:layout_height="46dip"
+            android:layout_marginRight="142dip"
+            android:src="@drawable/share"
+            android:scaleType="fitCenter"
+            android:text="分享"
+            android:layout_alignParentRight="true"
+            style="?android:buttonBarButtonStyle" />
+
+    </RelativeLayout>
+
+</LinearLayout>
