@@ -6,7 +6,7 @@
  - 支持高版本系统的QQ/微信的表情直接分享
  - 不支持7.0以下的安卓系统
 
-当前项目的apk [下载体验](https://github.com/gddhy/coolapk-emotion/blob/master/app/release/app-release.apk)
+当前项目的apk [下载体验](https://cdn.jsdelivr.net/gh/gddhy/coolapk-emotion/app/release/app-release.apk)
 
 也可用作模板打包成其他表情包软件
 
